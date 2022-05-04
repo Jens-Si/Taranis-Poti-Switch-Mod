@@ -37,7 +37,10 @@ The most upper one is GND, middle is the Signale.
 To add a switch you use a standart pull-up or pull-down schematic. I used the arduino pin next to the pin i want as the switch input to get the pull-up Voltage by setting the pin to HIGH. This can be done for 2 position or 3 position switches.
 Of yourse you can add many more things to the arduino. But i think most of us will stay with switches...
 
---PIC-- pullup/pulldown
+<p align="center">
+  <img src="https://github.com/Jens-Si/Taranis-Poti-Switch-Mod/blob/main/pics/pulluppulldown.png" width="550" title="old and new PCB">
+  <br /> Source: https://draeger-it.blog/raspberry-pi-pico-4-taster-mit-pulldown-pullup-abfragen/
+</p>
 
 <p align="center">
   <img src="https://github.com/Jens-Si/Taranis-Poti-Switch-Mod/blob/main/pics/x9darduinores.jpg" width="550" title="old and new PCB">
