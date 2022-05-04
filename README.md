@@ -16,6 +16,12 @@ or you can go crazy and use a arduino micro to emulate the potentiometer. Then y
 1. For Taranis x9d: The maximum Volgage for the potentiometer input is 3V! The Arduino can output more then that. So never use 100% duty cicle! Find max duty cicle with osziloskop or multimeter!
 
 ## Wiring
+Here you can see my wiring:
+<p align="center">
+  <img src="https://github.com/Jens-Si/Taranis-Poti-Switch-Mod/blob/main/pics/x9dcomplete.jpg" width="550" title="old and new PCB">
+  <br /> 
+</p>
+
 ### Power
 There is no elegant way to get Power for the arduino. You have to solder a cable to a leg of a mosfet to get Battery-Voltage. Make shure that the arduino can handle it. Especially if you use a 3s lipo
 
