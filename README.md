@@ -5,11 +5,11 @@
 The x9d has a 5th potentiometer input on the lower PCB
 The easyest thing woud be to just wire up a potentiometer or a 3 position switch with two resistors (see folder "resistor-switch" for schematic)
 
-or you can go crazy and use a arduino micro to emulate the potentiometer. Then you can connect whatever you want to the arduino (in my case 2x 3-pos switches and one pushbutton) and use some if-statements to define the "position" of the "potentiometer". This can be done by generating a high-frequenzy PWM and a condensator to get a steady voltage. By changing the duty cicle you can change the voltage.
+or you can go crazy and use a arduino micro to emulate the potentiometer. Then you can connect whatever you want to the arduino (in my case 2x 3-pos switches and one pushbutton) and use some if-statements to define the "position" of the "potentiometer". This can be done by generating a high-frequenzy PWM and a capacitor to get a steady voltage. By changing the duty cicle you can change the voltage.
 
 ## ToDo:
-1. Change timer1 to timer4 to get a even higher PPWM frequenzy. Then ther isn't the need for a large condensator to filter the signal and it shoud be more stable.
-2. Redefine the size of the condensator depending on the final PWM frequenzy
+1. Change timer1 to timer4 to get a even higher PPWM frequenzy. Then ther isn't the need for a large capacitor to filter the signal and it shoud be more stable.
+2. Redefine the size of the capacitor depending on the final PWM frequenzy
 3. Clean up code for easyer modification
 
 ## Important Information:
@@ -31,7 +31,7 @@ There is no elegant way to get Power for the arduino. You have to solder a cable
 </p>
 
 ### Poti-Signal
-The output signal is generatet on PIN9 (timer1). Together with a GND wire it can be soldert to the 5th potentiometer input, or any other potentiometer input. Make shure to add the condensator. For the 5th poti input you can solder the condensator together with the wires onto the pad.
+The output signal is generatet on PIN9 (timer1). Together with a GND wire it can be soldert to the 5th potentiometer input, or any other potentiometer input. Make shure to add the capacitor. For the 5th poti input you can solder the capacitor together with the wires onto the pad.
 The most upper one is GND, middle is the Signale.
 
 <p align="center">
