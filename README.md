@@ -1,5 +1,5 @@
 # Taranis-Poti-Switch-Mod
-!!! This project shoud not be implementet like this. Someone needs to change stuff in the code because i can't figure it out (don't have the time)" !!!
+!!! This project shoud not be implementet like this. Someone needs to change the timer i used because i can't figure it out (and didn't have the time)" !!!
 !!! This project is work in progress !!! use with caution !!!
 
 The x9d has a 5th potentiometer input on the lower PCB
