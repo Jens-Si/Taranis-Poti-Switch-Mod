@@ -19,7 +19,10 @@ or you can go crazy and use a arduino micro to emulate the potentiometer. Then y
 ### Power
 There is no elegant way to get Power for the arduino. You have to solder a cable to a leg of a mosfet to get Battery-Voltage. Make shure that the arduino can handle it. Especially if you use a 3s lipo
 
---PIC--
+<p align="center">
+  <img src="https://github.com/Jens-Si/Taranis-Poti-Switch-Mod/pics/x9dwitharduino.jpg" width="550" title="old and new PCB">
+  <br /> Power = yellow wire
+</p>
 
 ### Poti-Signal
 The output signal is generatet on PIN9 (timer1). Together with a GND wire it can be soldert to the 5th potentiometer input, or any other potentiometer input. Make shure to add the condensator. For the 5th poti input you can solder the condensator together with the wires onto the pad.
@@ -32,4 +35,8 @@ To add a switch you use a standart pull-up or pull-down schematic. I used the ar
 Of yourse you can add many more things to the arduino. But i think most of us will stay with switches...
 
 --PIC-- pullup/pulldown
---PIC-- how i did it.
+
+<p align="center">
+  <img src="https://github.com/Jens-Si/Taranis-Poti-Switch-Mod/pics/x9dwitharduino.jpg" width="550" title="old and new PCB">
+  <br /> Power = 10k 0805 Resistors for pull-up
+</p>
