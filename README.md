@@ -28,7 +28,10 @@ There is no elegant way to get Power for the arduino. You have to solder a cable
 The output signal is generatet on PIN9 (timer1). Together with a GND wire it can be soldert to the 5th potentiometer input, or any other potentiometer input. Make shure to add the condensator. For the 5th poti input you can solder the condensator together with the wires onto the pad.
 The most upper one is GND, middle is the Signale.
 
---PIC--
+<p align="center">
+  <img src="https://github.com/Jens-Si/Taranis-Poti-Switch-Mod/blob/main/pics/x9dpoti5input.jpg" width="550" title="old and new PCB">
+  <br /> Power = yellow wire
+</p>
 
 ### Add a Switch
 To add a switch you use a standart pull-up or pull-down schematic. I used the arduino pin next to the pin i want as the switch input to get the pull-up Voltage by setting the pin to HIGH. This can be done for 2 position or 3 position switches.
