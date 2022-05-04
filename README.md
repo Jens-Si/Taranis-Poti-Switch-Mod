@@ -20,7 +20,7 @@ or you can go crazy and use a arduino micro to emulate the potentiometer. Then y
 There is no elegant way to get Power for the arduino. You have to solder a cable to a leg of a mosfet to get Battery-Voltage. Make shure that the arduino can handle it. Especially if you use a 3s lipo
 
 <p align="center">
-  <img src="https://github.com/Jens-Si/Taranis-Poti-Switch-Mod/pics/x9dwitharduino.jpg" width="550" title="old and new PCB">
+  <img src="https://github.com/Jens-Si/Taranis-Poti-Switch-Mod/blob/main/pics/x9dwitharduino.jpg" width="550" title="old and new PCB">
   <br /> Power = yellow wire
 </p>
 
@@ -37,6 +37,6 @@ Of yourse you can add many more things to the arduino. But i think most of us wi
 --PIC-- pullup/pulldown
 
 <p align="center">
-  <img src="https://github.com/Jens-Si/Taranis-Poti-Switch-Mod/pics/x9dwitharduino.jpg" width="550" title="old and new PCB">
+  <img src="https://github.com/Jens-Si/Taranis-Poti-Switch-Mod/blob/main/pics/x9dwitharduino.jpg" width="550" title="old and new PCB">
   <br /> Power = 10k 0805 Resistors for pull-up
 </p>
