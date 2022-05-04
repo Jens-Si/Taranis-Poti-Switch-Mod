@@ -37,6 +37,6 @@ Of yourse you can add many more things to the arduino. But i think most of us wi
 --PIC-- pullup/pulldown
 
 <p align="center">
-  <img src="https://github.com/Jens-Si/Taranis-Poti-Switch-Mod/blob/main/pics/x9dwitharduino.jpg" width="550" title="old and new PCB">
+  <img src="https://github.com/Jens-Si/Taranis-Poti-Switch-Mod/blob/main/pics/x9darduinores.jpg" width="550" title="old and new PCB">
   <br /> Power = 10k 0805 Resistors for pull-up
 </p>
