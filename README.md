@@ -34,7 +34,7 @@ The most upper one is GND, middle is the Signale.
 </p>
 
 ### Add a Switch
-To add a switch you use a standart pull-up or pull-down schematic. I used the arduino pin next to the pin i want as the switch input to get the pull-up Voltage by setting the pin to HIGH. This can be done for 2 position or 3 position switches.
+To add a switch you use a standart pull-up or pull-down schematic. I used the arduino pin next to the pin i want as the switch input to get the pull-up Voltage by setting the pin to HIGH and using a 0805 size 10kOhm Resistor. This can be done for 2 position or 3 position switches.
 Of yourse you can add many more things to the arduino. But i think most of us will stay with switches...
 
 <p align="center">
@@ -44,5 +44,5 @@ Of yourse you can add many more things to the arduino. But i think most of us wi
 
 <p align="center">
   <img src="https://github.com/Jens-Si/Taranis-Poti-Switch-Mod/blob/main/pics/x9darduinores.jpg" width="550" title="old and new PCB">
-  <br /> Power = 10k 0805 Resistors for pull-up
+  <br /> 10k 0805 Resistors for pull-up
 </p>
