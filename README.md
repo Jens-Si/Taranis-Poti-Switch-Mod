@@ -14,7 +14,7 @@ or you can go crazy and use a arduino micro to emulate the potentiometer. Then y
 
 ## Important Information:
 1. For Taranis x9d: The maximum Volgage for the potentiometer input is 3V! The Arduino can output more then that. So never use 100% duty cicle! Find max duty cicle with osziloskop or multimeter!
-2. I had problems running the arduino on VCC, so i addet a 5V Voltage regulator and now everything is working fine.
+2. I had problems running the arduino on VCC (orange cable), so i addet a 5V Voltage regulator and now everything is working fine.
 
 ## Wiring
 Here you can see my wiring:
